@@ -1,4 +1,4 @@
-
+/* Reset some default browser styles */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
@@ -6,13 +6,13 @@ body, h1, h2, h3, p, ul, li {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #E8F4E5; /* Light green background */
     color: #333;
     line-height: 1.6;
 }
 
 header {
-    background-color: #333;
+    background-color: #78A54C; /* Dark green header background */
     color: #fff;
     padding: 10px 0;
 }
@@ -40,6 +40,7 @@ nav a {
 .hero h1 {
     font-size: 36px;
     margin-bottom: 20px;
+    color: #78A54C; /* Dark green text color */
 }
 
 .hero p {
@@ -50,7 +51,7 @@ nav a {
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #78A54C; /* Dark green button background */
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -58,7 +59,7 @@ nav a {
 }
 
 .cta-button:hover {
-    background-color: #555;
+    background-color: #5D7E3F; /* Slightly darker green on hover */
 }
 
 .features {
@@ -91,6 +92,7 @@ nav a {
 .pricing-plan h3 {
     font-size: 24px;
     margin-bottom: 20px;
+    color: #78A54C; /* Dark green text color */
 }
 
 .pricing-plan ul {
@@ -102,7 +104,7 @@ nav a {
 }
 
 .contact {
-    background-color: #333;
+    background-color: #78A54C; /* Dark green contact section background */
     color: #fff;
     text-align: center;
     padding: 100px 0;
@@ -120,7 +122,7 @@ nav a {
 
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #78A54C; /* Dark green footer background */
     color: #fff;
     text-align: center;
     padding: 10px 0;
