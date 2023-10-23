@@ -74,3 +74,11 @@ a:hover {
     color: #dc3545;
     margin-top: 10px;
 }
+/* Additional Styles for Email Input */
+
+.input-container input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
