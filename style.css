@@ -1,1 +1,74 @@
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #222; /* Dark background color */
+        color: #fff; /* Text color */
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .container {
+        max-width: 400px;
+        background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+        padding: 20px;
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* White box shadow */
+        text-align: center;
+        border-radius: 8px;
+    }
+
+    h2 {
+        background-color: #333; /* Dark header background color */
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-container {
+        margin: 10px 0;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #333; /* Dark input field background */
+        color: #fff; /* Text color for input fields */
+    }
+
+    button {
+        background-color: #333; /* Dark button color */
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    button:hover {
+        background-color: #555; /* Slightly darker on hover */
+    }
+
+    a {
+        text-decoration: none;
+        color: #00b377; /* Accent color for links */
+        font-weight: bold;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
 
