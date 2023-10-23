@@ -1,15 +1,16 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, form, input, button {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f7f7f7;
+    background-color: #00b377; /* Green background color */
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    margin: 0;
-}
-
-.green-bg {
-    background: linear-gradient(to bottom right, #00b4a2, #0083b0);
 }
 
 .container {
@@ -22,10 +23,11 @@ body {
 }
 
 h2 {
-    color: #fff; /* Change text color to white */
-    background-color: #00b4a2; /* Change header background color */
+    color: #fff; /* White text color */
+    background-color: #00b377; /* Green header background color */
     padding: 10px;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 form {
@@ -45,47 +47,25 @@ input {
 }
 
 button {
-    background-color: #007BFF;
+    background-color: #00b377; /* Green button color */
     color: #fff;
     padding: 10px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #009765; /* Darker green on hover */
 }
 
 a {
     text-decoration: none;
-    color: #007BFF;
+    color: #00b377; /* Green link color */
     font-weight: bold;
 }
 
 a:hover {
     text-decoration: underline;
-}
-
-/* Additional Styles for Signup Page */
-
-/* Adjust the styling for the "Sign up" button */
-.signup-button {
-    background-color: #28a745;
-}
-
-/* Styling for a success message (you'll need to add an element for displaying this) */
-.success-message {
-    color: #28a745;
-    margin-top: 10px;
-}
-
-/* Styling for error messages (you'll need to add elements for displaying these) */
-.error-message {
-    color: #dc3545;
-    margin-top: 10px;
-}
-/* Additional Styles for Email Input */
-
-.input-container input[type="email"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
 }
