@@ -1,19 +1,24 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f3f3f3;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
-    max-width: 300px;
-    margin: 0 auto;
+    max-width: 400px;
     background-color: #fff;
     padding: 20px;
-    margin-top: 100px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 8px;
 }
 
 h2 {
-    text-align: center;
+    color: #007BFF;
 }
 
 form {
@@ -49,4 +54,23 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+/* Additional Styles for Signup Page */
+
+/* Adjust the styling for the "Sign up" button */
+.signup-button {
+    background-color: #28a745;
+}
+
+/* Styling for a success message (you'll need to add an element for displaying this) */
+.success-message {
+    color: #28a745;
+    margin-top: 10px;
+}
+
+/* Styling for error messages (you'll need to add elements for displaying these) */
+.error-message {
+    color: #dc3545;
+    margin-top: 10px;
 }
