@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Signup Page</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Sign Up</title>
 </head>
-<body>
-    <div class="container">
-        <form action="register.php" method="POST">
-            <h2>Sign up</h2>
-            <div class="input-container">
-                <input type="text" name="username" placeholder="Username" required>
+<body style="font-family: 'Arial', sans-serif; background-color: #333; color: #fff; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0;">
+
+    <div style="background-color: rgba(255, 255, 255, 0.95); max-width: 400px; padding: 20px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); text-align: center; border-radius: 8px;">
+
+        <h2 style="background-color: #333; color: #fff; padding: 10px; border-radius: 5px; margin-bottom: 20px;">Sign Up</h2>
+
+        <form action="process_form.php" method="POST" style="display: flex; flex-direction: column;">
+
+            <div style="margin: 10px 0;">
+                <input type="text" name="username" placeholder="Username" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
             </div>
-            <div class="input-container">
-                <input type="email" name="email" placeholder="Email" required>
+
+            <div style="margin: 10px 0;">
+                <input type="email" name="email" placeholder="Email" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
             </div>
-            <div class="input-container">
-                <input type="password" name="password" placeholder="Password" required>
+
+            <div style="margin: 10px 0;">
+                <input type="password" name="password" placeholder="Password" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
             </div>
-            <button type="submit" class="signup-button">Sign up</button>
+
+            <button type="submit" class="signup-button" style="background-color: #333; color: #fff; padding: 10px; border: none; border-radius: 4px; cursor: pointer; transition: background-color 0.3s;">Sign Up</button>
+
         </form>
-        <p>Already have an account? <a href="index.html">Login</a></p>
+
+        <p style="color: #00b377; font-weight: bold; margin-top: 20px;">Already have an account? <a href="login.html" style="text-decoration: none; color: #00b377; font-weight: bold;">Login</a></p>
+
     </div>
+
 </body>
 </html>
