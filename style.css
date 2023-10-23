@@ -1,74 +1,76 @@
-<style>
-    body {
-        font-family: 'Arial', sans-serif;
-        background-color: #222; /* Dark background color */
-        color: #fff; /* Text color */
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        margin: 0;
-    }
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
-    .container {
-        max-width: 400px;
-        background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
-        padding: 20px;
-        box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* White box shadow */
-        text-align: center;
-        border-radius: 8px;
-    }
+.container {
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 8px;
+}
 
-    h2 {
-        background-color: #333; /* Dark header background color */
-        color: #fff;
-        padding: 10px;
-        border-radius: 5px;
-        margin-bottom: 20px;
-    }
+h2 {
+    color: #007BFF;
+}
 
-    form {
-        display: flex;
-        flex-direction: column;
-    }
+form {
+    display: flex;
+    flex-direction: column;
+}
 
-    .input-container {
-        margin: 10px 0;
-    }
+.input-container {
+    margin: 10px 0;
+}
 
-    input {
-        width: 100%;
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        background-color: #333; /* Dark input field background */
-        color: #fff; /* Text color for input fields */
-    }
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
 
-    button {
-        background-color: #333; /* Dark button color */
-        color: #fff;
-        padding: 10px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        transition: background-color 0.3s;
-    }
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
-    button:hover {
-        background-color: #555; /* Slightly darker on hover */
-    }
+a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
 
-    a {
-        text-decoration: none;
-        color: #00b377; /* Accent color for links */
-        font-weight: bold;
-    }
+a:hover {
+    text-decoration: underline;
+}
 
-    a:hover {
-        text-decoration: underline;
-    }
-</style>
+/* Additional Styles for Signup Page */
 
+/* Adjust the styling for the "Sign up" button */
+.signup-button {
+    background-color: #28a745;
+}
+
+/* Styling for a success message (you'll need to add an element for displaying this) */
+.success-message {
+    color: #28a745;
+    margin-top: 10px;
+}
+
+/* Styling for error messages (you'll need to add elements for displaying these) */
+.error-message {
+    color: #dc3545;
+    margin-top: 10px;
+}
