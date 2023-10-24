@@ -1,22 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Login Page</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroGetaway - Your Agricultural Retreat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        p {
+            font-size: 18px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>Welcome to AgroGetaway</h1>
+        <p>Your Ultimate Agricultural Retreat</p>
+    </header>
     <div class="container">
-        <form action="authenticate.php" method="POST">
-            <h2>Login</h2>
-            <div class="input-container">
-                <input type="text" name="username" placeholder="Username" required>
-            </div>
-            <div class="input-container">
-                <input type="password" name="password" placeholder="Password" required>
-            </div>
-            <button type="submit">Login</button>
-        </form>
-        <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+        <h2>About AgroGetaway</h2>
+        <p>Discover the beauty and tranquility of the countryside with AgroGetaway. Our agricultural retreat offers you the chance to escape the hustle and bustle of city life and immerse yourself in the world of farming and agriculture.</p>
+
+        <h2>Why Choose AgroGetaway?</h2>
+        <p>At AgroGetaway, you can:</p>
+        <ul>
+            <li>Experience life on a real farm</li>
+            <li>Learn about farming and sustainable agriculture</li>
+            <li>Enjoy fresh and organic farm-to-table meals</li>
+            <li>Relax in the peaceful rural environment</li>
+        </ul>
+
+        <h2>Book Your Retreat Today</h2>
+        <p>Ready to experience the AgroGetaway retreat? Book your stay now and enjoy the beauty of the countryside!</p>
+        <a href="#" class="btn">Book Now</a>
     </div>
 </body>
 </html>
