@@ -1,8 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
 
-              nav {
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
             background-color: #444;
-            width: 150px; /* Set the width of the vertical bar */
-            height: 100vh; /* Make it full height */
+            width: 150px;
+            height: 100vh;
             position: fixed;
             display: flex;
             flex-direction: column;
@@ -10,20 +29,78 @@
             padding-top: 20px;
         }
 
-<nav>
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: block;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .content {
+            margin-left: 150px;
+            padding: 16px;
+        }
+
+        #contact-us {
+            padding: 40px;
+        }
+
+        #contact-us h2 {
+            color: #333;
+        }
+
+        #contact-us p {
+            color: #666;
+        }
+
+        .contact-details {
+            margin-top: 20px;
+            color: #444;
+        }
+
+        .contact-details h3 {
+            color: #333;
+        }
+
+        .contact-details a {
+            color: #007BFF;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Your Website Name</h1>
+    </header>
+
+    <nav>
         <a href="#home">Home</a>
-        <a href="#aboutus.html">About Us</a>
-        <a href="#contactus.html">Contact Us</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="contactus.html">Contact Us</a>
+        <!-- Add more links based on your website structure -->
     </nav>
 
-<section id="contact-us">
-    <h2>Contact Us</h2>
-    <p>Have questions or need assistance? contact us using the information below:</p>
-
-
-    <div class="contact-details">
-        <h3>Contact Information</h3>
-        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-        <p>Phone: +123 456 7890</p>
+    <div class="content">
+        <!-- The rest of your content goes here -->
     </div>
-</section>
+
+    <section id="contact-us">
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance? Contact us using the information below:</p>
+
+        <div class="contact-details">
+            <h3>Contact Information</h3>
+            <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+            <p>Phone: +123 456 7890</p>
+        </div>
+    </section>
+
+</body>
+
+</html>
